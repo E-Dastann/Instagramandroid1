@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="375sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/image_recycler"
+        android:src="@drawable/photo_resicler"
+        android:scaleType="fitXY"
+        />
+    <TextView
+        android:layout_marginHorizontal="8dp"
+        app:layout_constraintStart_toStartOf="@id/image_recycler"
+        app:layout_constraintTop_toBottomOf="@id/image_recycler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="joshua_l The game in Japan was amazing and I want to share some photos"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="16px"
+        android:id="@+id/text_under"
+        />
+    <TextView
+        android:id="@+id/text_month"
+        app:layout_constraintStart_toStartOf="@id/text_under"
+        app:layout_constraintTop_toBottomOf="@id/text_under"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Septenber 16"
+        android:fontFamily=""
+        android:layout_marginTop="10dp"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>
