@@ -12,12 +12,12 @@
         tools:layout="@layout/fragment_home" />
     <fragment
         android:id="@+id/navigation_heart"
-        android:name="com.example.instagramandroid1.ui.LikeeFragment"
+        android:name="com.example.instagramandroid1.heart.LikeeFragment"
         android:label="fragment_likee"
         tools:layout="@layout/fragment_likee" />
     <fragment
         android:id="@+id/navigation_persons"
-        android:name="com.example.instagramandroid1.ui.PersonssFragment"
+        android:name="com.example.instagramandroid1.tabLayoutpackage.PersonssFragment"
         android:label="fragment_personss"
         tools:layout="@layout/fragment_personss" />
 </navigation>

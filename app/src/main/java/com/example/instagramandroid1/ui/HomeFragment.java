@@ -16,7 +16,7 @@ import com.example.instagramandroid1.databinding.FragmentHomeBinding;
 import java.util.ArrayList;
 
 
-public class HomeFragment extends Fragment {
+public class  HomeFragment extends Fragment {
     private FragmentHomeBinding binding;
     private ArrayList<ModelHome> modelHomes;
 
